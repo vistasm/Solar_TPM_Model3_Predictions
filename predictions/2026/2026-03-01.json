@@ -12,7 +12,7 @@
   "model_training_date": "2026-03-01",
   "data_source": "NRT",
   "environment": {
-    "inference_code_hash": "git:d4b9cd6",
+    "inference_code_hash": "git:7a60f4f",
     "python_version": "3.12.3",
     "step0_artifact_check": "PASSED"
   },
@@ -24,9 +24,9 @@
     "donki_lookback_days": 30,
     "donki_flares_fetched": 98,
     "donki_net_new": 0,
-    "donki_query_time_utc": "2026-03-01T03:18:03.292100",
+    "donki_query_time_utc": "2026-03-01T05:30:13.041607",
     "donki_max_peakTime_seen_utc": "2026-02-25 15:59:00",
-    "donki_effective_lag_hours": 83.32,
+    "donki_effective_lag_hours": 85.52,
     "donki_max_gap_days": 389
   },
   "nrt_prefilter": {
@@ -42,9 +42,9 @@
     "persistence_in_features": false,
     "persistence_in_thresholds": false,
     "note": "Model 3 is fully DONKI-immune. Persistence computed for JSON metadata only (lag monitoring)",
-    "donki_query_time_utc": "2026-03-01T03:18:03.292100",
+    "donki_query_time_utc": "2026-03-01T05:30:13.041607",
     "donki_max_peakTime_seen_utc": "2026-02-25 15:59:00",
-    "donki_effective_lag_hours": 83.32,
+    "donki_effective_lag_hours": 85.52,
     "effective_same_ar_coverage_hours": 0,
     "lag_bucket": "DEGRADED",
     "global_persistence": "DONKI_best_available",
@@ -60,35 +60,35 @@
   "tiers": {
     "M_plus": {
       "tier": "M+",
-      "threshold": 0.5979,
+      "threshold": 0.5996,
       "threshold_strategy": "TPM",
       "global_alert": false,
       "n_ar_alerts": 0,
       "n_patches_scored": 15,
-      "max_probability": 0.2437,
-      "mean_probability": 0.0392,
+      "max_probability": 0.2441,
+      "mean_probability": 0.0391,
       "ar_alerts": []
     },
     "M5_plus": {
       "tier": "M5+",
-      "threshold": 0.8835,
+      "threshold": 0.8842,
       "threshold_strategy": "TPM",
       "global_alert": false,
       "n_ar_alerts": 0,
       "n_patches_scored": 15,
-      "max_probability": 0.1775,
+      "max_probability": 0.1764,
       "mean_probability": 0.0222,
       "ar_alerts": []
     },
     "X_plus": {
       "tier": "X+",
-      "threshold": 0.941,
+      "threshold": 0.9398,
       "threshold_strategy": "TPM",
       "global_alert": false,
       "n_ar_alerts": 0,
       "n_patches_scored": 15,
-      "max_probability": 0.0302,
-      "mean_probability": 0.0052,
+      "max_probability": 0.0308,
+      "mean_probability": 0.0053,
       "ar_alerts": []
     }
   }
