@@ -1,0 +1,11 @@
+{
+  "strategy": "TPM",
+  "use_fallback": false,
+  "n_windows": null,
+  "baseline_thresholds": {
+    "LOW": 0.9114961960561082,
+    "MEDIUM": 0.8563240077664365,
+    "HIGH": 0.6740785660378824
+  },
+  "tpm_delta_model_path": "tpm_delta_model.pkl"
+}
