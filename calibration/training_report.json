@@ -3,7 +3,7 @@
   "model_version": "v3.0.17",
   "prediction_window": "[06:00 UTC D+1, 06:00 UTC D+2)",
   "training_date": "2026-03-01",
-  "training_start_utc": "2026-03-01T02:55:29.123767",
+  "training_start_utc": "2026-03-01T04:40:06.628313",
   "training_environment": "Python 3.12.3, numpy 2.4.2",
   "all_checkpoints_passed": true,
   "gap_repair": {
@@ -87,11 +87,11 @@
         "unity_flare_potential"
       ],
       "artifacts": {
-        "tpm_delta_model.pkl": "sha256:79eb3a0911b220ddd159539f2af528f09e4bf3dcf987faeeb9c2132d2139ed18",
-        "scaler.pkl": "sha256:eee35054335cbfb11df6a0ee3f1e8f5283f3bb05206287ce74baa1db3e7d210b",
-        "imputation_medians.json": "sha256:2a0434de214fd76b96aa1a3e292626dbbce615743dd99cb293c3d443f2f87094",
-        "threshold_config.json": "sha256:01d82f785ca51bde91a60017b9bd720b2f0a9a2c56cd97d9c42b2bf5eeee97a2",
-        "model.pkl": "sha256:641a346e1be5bb41815d3f2cd444910e9e9314a1cda7231af497895e5e985c5f",
+        "tpm_delta_model.pkl": "sha256:18565fcf6f4d43868a49859ebb45673b5892da4243361a2d0110f873ae2017e9",
+        "scaler.pkl": "sha256:c56364b9edaec4cfcd430a59c9b404bf578bcc78ea48d6e91a0b820aee0f56e8",
+        "imputation_medians.json": "sha256:52fb1d000ca439c093c461a2a50d92f5c050ad99c9e0fa44280f276a14fabf2e",
+        "threshold_config.json": "sha256:a281f235ded0ead8de4eeb7b8cb3f36b1a7f6d88d9df55bca2dbbed818d234dd",
+        "model.pkl": "sha256:5873144e88461cce63bb7f3c7b1950ac762b8f278a361c3f9752f8e5ded6a278",
         "garden_fit_stats.json": "sha256:a916547d7b3aceb6da8051a7be8c5016120c7c98bf50fab119677707df8b95a9"
       },
       "train_events": 945,
@@ -167,11 +167,11 @@
         "unity_flare_potential"
       ],
       "artifacts": {
-        "tpm_delta_model.pkl": "sha256:08e4a81d6b07582306fff5e9f19c45c4288507ebc022fedb2698ffbda287c39e",
-        "scaler.pkl": "sha256:eee35054335cbfb11df6a0ee3f1e8f5283f3bb05206287ce74baa1db3e7d210b",
-        "imputation_medians.json": "sha256:2a0434de214fd76b96aa1a3e292626dbbce615743dd99cb293c3d443f2f87094",
-        "threshold_config.json": "sha256:538980f5538f6947ebe35db488597f471a47af5d3ee989f27055c879e63853ce",
-        "model.pkl": "sha256:321df911b07cbc563bd94147ff394a55d8878b55fa987964674be4ef2b276ad6",
+        "tpm_delta_model.pkl": "sha256:b8902b73a5555ff05e5608ac242ea42d825ef653a75164da80005939a7978f67",
+        "scaler.pkl": "sha256:c56364b9edaec4cfcd430a59c9b404bf578bcc78ea48d6e91a0b820aee0f56e8",
+        "imputation_medians.json": "sha256:52fb1d000ca439c093c461a2a50d92f5c050ad99c9e0fa44280f276a14fabf2e",
+        "threshold_config.json": "sha256:8d5faf59ad8364a28e6d550a7628485535b26b5456e6855c340c5f7645967441",
+        "model.pkl": "sha256:56576ee10160bdd67fe1b4a393add53e6ce209630ea59ce72c6af624e1b16711",
         "garden_fit_stats.json": "sha256:a916547d7b3aceb6da8051a7be8c5016120c7c98bf50fab119677707df8b95a9"
       },
       "train_events": 233,
@@ -247,11 +247,11 @@
         "unity_flare_potential"
       ],
       "artifacts": {
-        "tpm_delta_model.pkl": "sha256:20f51fa58f0f5096d4458631e52bcfa1b014e6a02f38807fa7bed7349e765887",
-        "scaler.pkl": "sha256:eee35054335cbfb11df6a0ee3f1e8f5283f3bb05206287ce74baa1db3e7d210b",
-        "imputation_medians.json": "sha256:2a0434de214fd76b96aa1a3e292626dbbce615743dd99cb293c3d443f2f87094",
-        "threshold_config.json": "sha256:786d3825b287eddd0c765dcfb468432e30429e0257a39c3af2a9dd9f8e19d5fd",
-        "model.pkl": "sha256:da765a234280b434feab0333dbb12229c6253c01ab714402147f350f12a84b9d",
+        "tpm_delta_model.pkl": "sha256:aae45a2bf0cb2e280e07826b696fb496eff904a1065c57e4b202ae40e16054c6",
+        "scaler.pkl": "sha256:c56364b9edaec4cfcd430a59c9b404bf578bcc78ea48d6e91a0b820aee0f56e8",
+        "imputation_medians.json": "sha256:52fb1d000ca439c093c461a2a50d92f5c050ad99c9e0fa44280f276a14fabf2e",
+        "threshold_config.json": "sha256:eef63165b1b01303d2c0e13ed797ab49da937ed8b7bcf16c93d9fca7833d5493",
+        "model.pkl": "sha256:c29fbf8b1caf65a4d3acdb00d8da56aaa42b33777cf03eae154437a87d219b83",
         "garden_fit_stats.json": "sha256:a916547d7b3aceb6da8051a7be8c5016120c7c98bf50fab119677707df8b95a9"
       },
       "train_events": 105,
@@ -259,8 +259,8 @@
     }
   },
   "data_hashes": {
-    "SHARP_MASTER_DAILY": "sha256:e87805c0b5a4e99aaf8bd2115601f484360de413fe7824e167073ef65e83ebf5",
+    "SHARP_MASTER_DAILY": "sha256:a4d89a397692cb10406ffc94332c8d9e304dff5269c1f1c30e05dcc3786cef89",
     "UNIFIED_MASTER": "sha256:e5f9e1e0893a344cb86d6b44d3fbb6b24eab78b5c23079b4ed3485f0703c4c44"
   },
-  "training_duration_seconds": 18.600196
+  "training_duration_seconds": 22.289122
 }
