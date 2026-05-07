@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-06T05:30:10Z",
+    "generated_at": "2026-05-07T05:30:10Z",
     "model_name": "Model 3 (Sweeper)",
     "model_version": "v3.0.17",
     "windows": [
@@ -50,19 +50,19 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-05-02"
+      "end": "2026-05-03"
     },
-    "n_days_verified": 53
+    "n_days_verified": 54
   },
   "summary": {
     "M_plus": {
       "precision": 1.0,
-      "recall": 0.5,
-      "f1_score": 0.6667,
-      "lift": 3.25,
+      "recall": 0.4444,
+      "f1_score": 0.6154,
+      "lift": 2.89,
       "alert_rate": 0.1538,
       "n_predictions_30d": 26,
-      "n_events_30d": 8
+      "n_events_30d": 9
     },
     "M5_plus": {
       "precision": 1.0,
@@ -89,12 +89,12 @@
         "confusion_matrix": {
           "hits": 0,
           "false_alarms": 0,
-          "misses": 0,
-          "true_negatives": 4
+          "misses": 1,
+          "true_negatives": 3
         },
         "metrics": {
           "precision": 0,
-          "recall": 0,
+          "recall": 0.0,
           "f1_score": 0,
           "far": 0.0,
           "lift": 0,
@@ -102,8 +102,8 @@
         },
         "totals": {
           "n_predictions": 4,
-          "n_events": 0,
-          "base_rate": 0.0
+          "n_events": 1,
+          "base_rate": 0.25
         }
       },
       "M5_plus": {
@@ -154,21 +154,21 @@
         "confusion_matrix": {
           "hits": 4,
           "false_alarms": 0,
-          "misses": 4,
-          "true_negatives": 18
+          "misses": 5,
+          "true_negatives": 17
         },
         "metrics": {
           "precision": 1.0,
-          "recall": 0.5,
-          "f1_score": 0.6667,
+          "recall": 0.4444,
+          "f1_score": 0.6154,
           "far": 0.0,
-          "lift": 3.25,
+          "lift": 2.89,
           "alert_rate": 0.1538
         },
         "totals": {
           "n_predictions": 26,
-          "n_events": 8,
-          "base_rate": 0.307692
+          "n_events": 9,
+          "base_rate": 0.346154
         }
       },
       "M5_plus": {
@@ -219,21 +219,21 @@
         "confusion_matrix": {
           "hits": 4,
           "false_alarms": 2,
-          "misses": 15,
+          "misses": 16,
           "true_negatives": 32
         },
         "metrics": {
           "precision": 0.6667,
-          "recall": 0.2105,
-          "f1_score": 0.32,
+          "recall": 0.2,
+          "f1_score": 0.3077,
           "far": 0.0588,
-          "lift": 1.86,
-          "alert_rate": 0.1132
+          "lift": 1.8,
+          "alert_rate": 0.1111
         },
         "totals": {
-          "n_predictions": 53,
-          "n_events": 19,
-          "base_rate": 0.358491
+          "n_predictions": 54,
+          "n_events": 20,
+          "base_rate": 0.37037
         }
       },
       "M5_plus": {
@@ -241,20 +241,20 @@
           "hits": 1,
           "false_alarms": 0,
           "misses": 4,
-          "true_negatives": 48
+          "true_negatives": 49
         },
         "metrics": {
           "precision": 1.0,
           "recall": 0.2,
           "f1_score": 0.3333,
           "far": 0.0,
-          "lift": 10.6,
-          "alert_rate": 0.0189
+          "lift": 10.8,
+          "alert_rate": 0.0185
         },
         "totals": {
-          "n_predictions": 53,
+          "n_predictions": 54,
           "n_events": 5,
-          "base_rate": 0.09434
+          "base_rate": 0.092593
         }
       },
       "X_plus": {
@@ -262,20 +262,20 @@
           "hits": 0,
           "false_alarms": 3,
           "misses": 3,
-          "true_negatives": 47
+          "true_negatives": 48
         },
         "metrics": {
           "precision": 0.0,
           "recall": 0.0,
           "f1_score": 0,
-          "far": 0.06,
+          "far": 0.0588,
           "lift": 0,
-          "alert_rate": 0.0566
+          "alert_rate": 0.0556
         },
         "totals": {
-          "n_predictions": 53,
+          "n_predictions": 54,
           "n_events": 3,
-          "base_rate": 0.056604
+          "base_rate": 0.055556
         }
       }
     }
