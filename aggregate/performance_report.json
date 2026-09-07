@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-06T05:30:13Z",
+    "generated_at": "2026-09-07T05:30:12Z",
     "model_name": "Model 3 (Sweeper)",
     "model_version": "v3.0.17",
     "windows": [
@@ -50,9 +50,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-09-02"
+      "end": "2026-09-03"
     },
-    "n_days_verified": 173
+    "n_days_verified": 174
   },
   "summary": {
     "M_plus": {
