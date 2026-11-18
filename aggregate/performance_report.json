@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-11-17T05:30:11Z",
+    "generated_at": "2026-11-18T05:30:12Z",
     "model_name": "Model 3 (Sweeper)",
     "model_version": "v3.0.17",
     "windows": [
@@ -50,9 +50,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-11-13"
+      "end": "2026-11-14"
     },
-    "n_days_verified": 249
+    "n_days_verified": 250
   },
   "summary": {
     "M_plus": {
@@ -88,17 +88,17 @@
       "M_plus": {
         "confusion_matrix": {
           "hits": 1,
-          "false_alarms": 1,
+          "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 2
+          "true_negatives": 3
         },
         "metrics": {
-          "precision": 0.5,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1_score": 0.6667,
-          "far": 0.3333,
-          "lift": 2.0,
-          "alert_rate": 0.5
+          "f1_score": 1.0,
+          "far": 0.0,
+          "lift": 4.0,
+          "alert_rate": 0.25
         },
         "totals": {
           "n_predictions": 4,
@@ -109,17 +109,17 @@
       "M5_plus": {
         "confusion_matrix": {
           "hits": 0,
-          "false_alarms": 2,
+          "false_alarms": 1,
           "misses": 0,
-          "true_negatives": 2
+          "true_negatives": 3
         },
         "metrics": {
           "precision": 0.0,
           "recall": 0,
           "f1_score": 0,
-          "far": 0.5,
+          "far": 0.25,
           "lift": 0,
-          "alert_rate": 0.5
+          "alert_rate": 0.25
         },
         "totals": {
           "n_predictions": 4,
@@ -217,23 +217,23 @@
     "90d": {
       "M_plus": {
         "confusion_matrix": {
-          "hits": 12,
+          "hits": 11,
           "false_alarms": 9,
           "misses": 8,
-          "true_negatives": 58
+          "true_negatives": 59
         },
         "metrics": {
-          "precision": 0.5714,
-          "recall": 0.6,
-          "f1_score": 0.5854,
-          "far": 0.1343,
-          "lift": 2.49,
-          "alert_rate": 0.2414
+          "precision": 0.55,
+          "recall": 0.5789,
+          "f1_score": 0.5641,
+          "far": 0.1324,
+          "lift": 2.52,
+          "alert_rate": 0.2299
         },
         "totals": {
           "n_predictions": 87,
-          "n_events": 20,
-          "base_rate": 0.229885
+          "n_events": 19,
+          "base_rate": 0.218391
         }
       },
       "M5_plus": {
